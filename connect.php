@@ -10,7 +10,7 @@
      <p>
          <?PHP
          $dsn = 'mysql:dbname=php_db;host=localhost;charset=utf8mb4';
-         $user = '';
+         $user = 'root';
          $password = '';
  
          $pdo = new PDO($dsn, $user, $password);
