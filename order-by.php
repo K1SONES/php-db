@@ -50,6 +50,7 @@
              <td>{$result['age']}</td>
              </tr>
              ";
+             echo $table_row;
          }
          ?>
      </table>
